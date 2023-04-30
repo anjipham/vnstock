@@ -10,7 +10,7 @@ from io import BytesIO
 
 # API request config for SSI API endpoints
 headers = {
-        "accept": "application/json",
+        "accept": 'application/json;text/html; charset=UTF-8',
         "accept-encoding": "gzip, deflate, br",
         "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7,zh-CN;q=0.6,zh;q=0.5",
         "cache-control": "max-age=0",
@@ -26,7 +26,7 @@ headers = {
         }
 
 def api_request(url, headers=headers):
-    r = requests.get(url, headers).json()
+    r = requests.get(url, headers).text()
     return r
 
 ## STOCK LISTING
