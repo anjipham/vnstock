@@ -10,10 +10,6 @@ from io import BytesIO
 
 # API request config for SSI API endpoints
 headers = {
-        ":authority": "iboard.ssi.com.vn"
-        ":method": "GET"
-        ":path": "/"
-        ":scheme": "https"
         "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
         "accept-encoding": "gzip, deflate, br"
         "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7,zh-CN;q=0.6,zh;q=0.5"
