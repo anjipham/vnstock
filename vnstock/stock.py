@@ -11,14 +11,14 @@ from io import BytesIO
 # API request config for SSI API endpoints
 headers = {
         'Connection': 'keep-alive',
-        'sec-ch-ua': '"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"',
+        'sec-ch-ua': '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
         'DNT': '1',
         'sec-ch-ua-mobile': '?0',
         'X-Fiin-Key': 'KEY',
         'Content-Type': 'application/json',
-        'Accept': 'application/json',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
         'X-Fiin-User-ID': 'ID',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
         'X-Fiin-Seed': 'SEED',
         'sec-ch-ua-platform': 'Windows',
         'Origin': 'https://iboard.ssi.com.vn',
